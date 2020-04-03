@@ -1,0 +1,11 @@
+load("@d2l_rules_csharp//csharp:defs.bzl", "csharp_library")
+
+csharp_library(
+    name = "CompileIssue",
+    srcs = [
+        "CompileIssue.cs",
+    ],
+    target_frameworks = [
+        "net47",
+    ],
+)

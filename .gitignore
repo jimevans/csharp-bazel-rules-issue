@@ -3,6 +3,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+bazel-bin/
+bazel-out/
+bazel-csharp-bazel-rules-issue/
+
 # User-specific files
 *.rsuser
 *.suo
